@@ -1,0 +1,17 @@
+.footer{
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    margin-top: 304%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footerAtag{
+    margin: 5px ;
+    text-decoration:none;
+    color:var(--green);
+    cursor:pointer;
+}

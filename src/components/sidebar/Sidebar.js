@@ -4,7 +4,7 @@ export function Sidebar() {
   return (
     <>
       <div className="sidebar-left">
-        <div className="sidebar-link"><a href='https://github.com/mkrndmb' target="_blank">
+        <div className="sidebar-link"><a href='https://github.com/mkrndmb' target="_blank" rel="noopener noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             role="img"
@@ -22,7 +22,7 @@ export function Sidebar() {
           </a>
         </div>
         <div className="sidebar-link">
-        <a href='https://instagram.com/makrand_b' target="_blank">
+        <a href='https://instagram.com/makrand_b' target="_blank" rel="noopener noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             role="img"
@@ -42,7 +42,7 @@ export function Sidebar() {
           </a>
         </div>
         <div className="sidebar-link">
-        <a href='https://twitter.com/___mak_____' target="_blank">
+        <a href='https://twitter.com/___mak_____' target="_blank" rel="noopener noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             role="img"
@@ -60,7 +60,7 @@ export function Sidebar() {
           </a>
         </div>
         <div className="sidebar-link">
-        <a href='https://www.linkedin.com/in/makarand-babhulgaonkar-271827103/' target="_blank">
+        <a href='https://www.linkedin.com/in/makarand-babhulgaonkar-271827103/' target="_blank" rel="noopener noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             role="img"
@@ -80,7 +80,7 @@ export function Sidebar() {
           </a>
         </div>
         <div className="sidebar-link">
-        <a href='https://codepen.io/mkrndmb' target="_blank">
+        <a href='https://codepen.io/mkrndmb' target="_blank" rel="noopener noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             role="img"
@@ -103,7 +103,7 @@ export function Sidebar() {
         </div>
       </div>
       <div className="sidebar-right">
-        <a className="sidebar-mail" href='mailto:imakarandb@gmail.com' target='_blank'>imakarandb@gmail.com</a>
+        <a className="sidebar-mail" href='mailto:imakarandb@gmail.com' target='_blank' rel="noopener noreferrer">imakarandb@gmail.com</a>
       </div>
     </>
   );

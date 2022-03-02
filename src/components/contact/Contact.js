@@ -11,7 +11,7 @@ export function Contact({useElementOnScreen}) {
             <h1 >What's Next?</h1>
             <div className='cc'>Get In Touch</div>
             <p className='cd'>Hi , I’m currently looking for new opportunities, reach out to me in my inbox. Whether you have a question or want to give feedback, Please feel free to mail me !</p>
-            <div className='sayhello' ref={ref}><a href='mailto:imakrandb@gmail.com' target='_blank'>Say Hello</a></div>
+            <div className='sayhello' ref={ref}><a href='mailto:imakrandb@gmail.com' target='_blank' rel="noopener noreferrer">Say Hello</a></div>
         </div>
     )
 };

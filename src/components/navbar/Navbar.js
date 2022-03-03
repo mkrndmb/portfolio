@@ -27,7 +27,7 @@ export function Navbar() {
   
   return (
     <div className="nav-container" id='navbar'>
-      <div className="nav-logo"><a href='#'>Logo</a></div>
+      <div className="nav-logo"><a href='#'></a></div>
       <div className="nav-items">
         <div className="nav-content-item"><a href='#about'>About</a></div>
         <div className="nav-content-item"><a href='#experience'>Experience</a></div>

@@ -1,5 +1,7 @@
 import './projects.css'
 import homestop from './homestop.png'
+import garbage from './garbage.png'
+import sto from './sto.png'
 
 export function Projects() {
    
@@ -10,7 +12,7 @@ export function Projects() {
                 <div className='proj1'>
                     <p className='outline'>Practice Project</p>
                     <h3>Stories</h3>
-                    <div className='desc'>Built a Full Stack web application where user can share their
+                    <div className='desc'>A Full Stack web application where user can share their
 Travel stories. It allows user to create, update, delete their
 profile and posts ; Also allows user and category wise posts
 filtering.</div>
@@ -27,7 +29,7 @@ filtering.</div>
                     </div>
                 </div>
                 <div className='proje-img'>
-                    IMage
+                <img className='img2' src={sto} alt='hs' />
                 </div>
                 
                 <div className='proj2'>
@@ -53,23 +55,23 @@ authentication. Also used firebase for storing collections</div>
                 </div>
 
                 <div className='proj1' style={{marginTop:'130px'}}>
-                    <p className='outline'>Practice Project</p>
-                    <h3>TRAVEL COMPANION</h3>
-                    <div className='desc'>Travel Advisor app to get info on nearby restaurants, hotels,
-attractions based on location. </div>
+                    <p className='outline'>FY Engineering Project</p>
+                    <h3>Waste Management System</h3>
+                    <div className='desc'>Web based application which monitors level of garbage and keeps track of it. Also provide mailing system to the authority ,a QA corner for registered people. </div>
                     <ul className='list list3'>
-                        <li>React</li>
-                        <li>Travel advisor API</li>
-                        <li>@react-google-maps/api</li>
+                        <li>Python/Flask</li>
+                        <li>Firebase</li>
+                        <li>MySQL</li>
+                        <li>Raspberry Pi 3</li>
                     </ul>
                     <div className='links'>
                         <div></div>
-                        <div><a target='_blank' href='https://github.com/mkrndmb/travel-companion'>https://github.com/mkrndmb/travel-companion
+                        <div><a target='_blank' href='https://github.com/mkrndmb'>https://github.com/mkrndmb
 </a></div>
                     </div>
                 </div>
                 <div className='proje-img'>
-                    IMage
+                <img className='img2' src={garbage} alt='hs' />
                 </div>
                 
             </div>
